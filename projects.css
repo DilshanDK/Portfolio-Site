@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.hero{
+    display: block;
+}
+.projects{
+
+    width: 25%;
+    height: 200px;
+    align-items: center;
+    margin: 30px 0 30px 0;
+    border: 1px solid white;
+    border-radius: 20px;
+
+}
+.projects:hover{
+    box-shadow: 5px 5px 30px black;
+    cursor: pointer;
+}
+.first,.second{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+@media only screen and (max-width: 820px) {
+
+    .first,.second{
+        display: block;
+    }
+    .projects{
+        width: 80%;
+        margin: 50px 50px 0 50px;
+    }
+
+    .line{
+        display: none;
+    }
+}
+@media only screen and (max-width: 1130px) {
+    .line{
+        display: none;
+    }
+}

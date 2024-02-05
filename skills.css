@@ -1,0 +1,78 @@
+.hero{
+    display: flex;
+    justify-content: space-evenly;
+}
+.first{
+    display: flex;
+    justify-content:center ;
+    align-content: center;
+    background-color: #042c7c;
+    width: 350px;
+    height: 400px;  
+    margin: 50px 0 0 0; 
+    border-radius: 20px;
+    box-shadow: 2px 2px 20px lightblue;
+    
+} 
+.projects1,.projects2,.projects3{
+    position: relative;
+    margin: 60px;
+    width: 230px;
+    height: 230px;
+    background:conic-gradient(black 100deg, white 0deg);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.projects1::before{
+    content: "";
+    position: absolute;
+    height: 185px;
+    width: 185px;
+    border-radius: 50%;
+    background-color: #042c7c;
+}
+.projects2::before{
+    content: "";
+    position: absolute;
+    height: 185px;
+    width: 185px;
+    border-radius: 50%;
+    background-color: #042c7c;
+}
+.projects3::before{
+    content: "";
+    position: absolute;
+    height: 185px;
+    width: 185px;
+    border-radius: 50%;
+    background-color: #042c7c;
+}
+
+.html,.css,.js{
+    position: absolute;
+    margin: 330px;
+    font-size: 25px;
+    font-weight: bold;
+    color: aliceblue;
+
+}
+.value1,.value2,.value3{
+    position: absolute;
+    margin: 154px 0 0 0;
+    font-size: 30px;
+    color: aliceblue;
+}
+
+@media only screen and (max-width: 820px) {
+    .line{
+        display: none;
+    }
+}
+@media only screen and (max-width: 1130px) {
+    .line{
+        display: none;
+    }
+}

@@ -1,0 +1,88 @@
+* {
+    margin: -5px 0 0 0;
+    padding: 0;
+}
+
+.connect-div {
+    margin: 50px 0 0 0;
+    width: 450px;
+    height: 450px;
+    backdrop-filter: blur(4px);
+    background-color: lightseagreen;
+    border-radius: 20px;
+    border: 1px white solid;
+    padding: 80px 30px 80px 100px;
+}
+
+th,
+td {
+    text-align: left;
+    color: black;
+
+}
+
+input {
+    width: 340px;
+    margin: 10px 0px 20px 0px;
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 5px 10px 5px 30px;
+}
+
+.sub {
+    position: absolute;
+    margin: 360px 30px 20px 115px;
+    width: 150px;
+    padding: 3px;
+    border: 1px solid white;
+    border-radius: 20px;
+    box-shadow: 1px 2px 10px black;
+}
+
+.sub:hover {
+    background-color: rgb(0, 55, 125);
+    border: 2px solid white;
+    color: white;
+}
+
+@media only screen and (max-width: 1130px) {
+    .line {
+        display: none;
+    }
+
+}
+
+.con {
+    color: black;
+    font-weight: bold;
+    margin: -20px 0 40px 88px;
+    font-size: 35px;
+}
+
+@media only screen and (max-width: 820px) {
+
+    .connect-div {
+        width: 300px;
+        padding: 30px;
+        height: 400px;
+    }
+
+    th,
+    td,
+    input {
+        font-size: 15px;
+    }
+
+    input {
+        width: 250px;
+    }
+    .con{
+        font-size: 25px;
+        margin: 10px 0 30px 80px;
+    }
+    .sub{
+        margin: 290px 0 0 70px;
+        font-size: 15px;
+    }
+
+}
